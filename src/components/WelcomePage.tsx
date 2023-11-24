@@ -6,11 +6,14 @@ const Home = () => {
     <>
       <div className="home-page-container"></div>
       <center>
-        <h1>Welcome!</h1>
-        <h2>What would you like to see first?</h2>
+        <header>
+          <h1>Welcome!</h1>
+          <h2>What would you like to see first of me?</h2>
+        </header>
+
         <h3>
           <a href="https://www.linkedin.com/in/cameron-lochran-371610234/">
-            My LinkedIn,{" "}
+            My LinkedIn,
           </a>
           <br />
         </h3>
