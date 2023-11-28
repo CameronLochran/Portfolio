@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../components/WelcomePage";
+import Home from "../components/HomePage/WelcomePage";
 import ProjectsPage from "../components/ProjectsPage";
 import AboutMePage from "../components/AboutMePage";
 import ContactPage from "../components/ContactPage";
-import "../css/WelcomePage.css";
 
 const MainContainer = () => {
   return (

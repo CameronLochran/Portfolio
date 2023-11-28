@@ -1,9 +1,10 @@
 import React from "react";
-import "../css/WelcomePage.css";
+import "./WelcomePage.css";
 
 const Home = () => {
   return (
     <>
+      <title>Cameron Lochran</title>
       <div className="home-page-container"></div>
       <center>
         <header>
