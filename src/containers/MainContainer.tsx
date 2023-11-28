@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../components/HomePage/WelcomePage";
 import ProjectsPage from "../components/ProjectsPage";
-import AboutMePage from "../components/AboutMePage";
+import AboutMePage from "../components/AboutMePage/AboutMePage";
 import ContactPage from "../components/ContactPage";
 
 const MainContainer = () => {

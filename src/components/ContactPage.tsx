@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import Title from "./HomePage/Title";
 
 const ContactPage = () => {
   return (
     <>
-        <h1>Contact Page</h1>
+      <Title />
+      <h1>Contact Page</h1>
     </>
-  )
-}
+  );
+};
 
-export default ContactPage
+export default ContactPage;
