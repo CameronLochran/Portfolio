@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
+import Hero from './Hero';
 import "./WelcomePage.css";
-
 
 const Home = () => {
   return (
@@ -9,15 +9,14 @@ const Home = () => {
         <head>
           <title>Cameron Lochran</title>
         </head>
-        
+
         <center>
           <div className="header">
             <header>
-            <h1>Welcome!</h1>
-            <h2>What would you like to see first of me?</h2>
-          </header>
+              <h1>Welcome!</h1>
+              <h2>What would you like to see first of me?</h2>
+            </header>
           </div>
-          
 
           <h3>
             <a href="https://www.linkedin.com/in/cameron-lochran-371610234/">
@@ -40,7 +39,7 @@ const Home = () => {
           </h3>
         </center>
       </div>
-    </> 
+    </>
   );
 };
 

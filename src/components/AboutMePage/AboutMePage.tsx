@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../HomePage/Hero";
 import './AboutMePage.css';
 
 const AboutMePage = () => {

@@ -1,10 +1,10 @@
 import React from "react";
+import Hero from "../HomePage/Hero";
 
 const ProjectsPage = () => {
   return (
     <>
-      <title>My Projects</title>
-      <h1>Projects Page</h1>
+      <Hero/>
     </>
   );
 };
