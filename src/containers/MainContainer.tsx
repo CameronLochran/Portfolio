@@ -3,7 +3,6 @@ import Home from "../components/HomePage/WelcomePage";
 import ProjectsPage from "../components/ProjectsPage/ProjectsPage";
 import AboutMePage from "../components/AboutMePage/AboutMePage";
 import ContactPage from "../components/ContactPage";
-import Hero from "../components/HomePage/Hero";
 
 const MainContainer = () => {
   return (
@@ -11,7 +10,7 @@ const MainContainer = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<ProjectsPage/>} />
+          <Route path="/projects" element={<ProjectsPage/>}/>
           <Route path="/aboutme" element={<AboutMePage />} />
           <Route path="contactpage" element={<ContactPage />} />
         </Routes>
