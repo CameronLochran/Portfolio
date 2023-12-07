@@ -1,0 +1,15 @@
+h1.my-projects-header{
+    animation: fadeIn 5s;
+    font-size: 62.5px;
+    font-family: Arial;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+div#projects{
+    animation: fadeIn 5s;
+    
+}
