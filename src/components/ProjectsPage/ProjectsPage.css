@@ -1,6 +1,6 @@
-h1.my-projects-header{
-    animation: fadeIn 5s;
-    font-size: 62.5px;
+div.my-projects-header{
+    animation: fadeIn 2s;
+    font-size: 35px;
     font-family: Arial;
 }
 
